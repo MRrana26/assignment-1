@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+
+.container .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    
+
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.button{
+    background-color:#30B868;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+#banner{
+    background: url(../images/hero-bg.png), linear-gradient(#000000);
+    height: 674px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner .banner-content{
+    max-width: 1360px;
+    text-align: center;
+}
+
+
+.early-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+
+
+.early-btn button{
+    color: #30B868;
+    border: none;
+    padding: 8px 12px ;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    
+}
+
+.banner-content-text h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.banner-content-text .color-green{
+    color: #30B868;
+}
+
+.banner-content-text p{
+    color: #ffffff;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.see-button{
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.banner-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+#notes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notes .notes-container{
+    max-width: 1360px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.notes-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.notes-heading p{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+
+.notes-container .notes-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1360px;
+    gap: 24px;
+
+}
+
+.notes-box img{
+    background-color: #30B868;
+    border-radius: 100%;
+}
