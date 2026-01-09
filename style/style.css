@@ -44,10 +44,11 @@
     padding: 12px 16px;
     color: #ffffff;
     border-radius: 4px;
+    gap: 6px;
 }
 
 #banner{
-    background: url(../images/hero-bg.png), linear-gradient(#000000);
+    background: url(../images/hero-bg.png), linear-gradient(#627382);
     height: 674px;
     display: flex;
     align-items: center;
@@ -101,6 +102,8 @@
 }
 
 .see-button{
+    display: inline-flex;
+    align-items: center;
     background-color: transparent;
     cursor: pointer;
     border: 2px solid white;
@@ -109,7 +112,9 @@
     padding: 12px 16px;
     color: #ffffff;
     border-radius: 4px;
+    gap: 6px;
 }
+
 .banner-buttons{
     display: flex;
     justify-content: center;
@@ -120,6 +125,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #62738215;
+
 }
 
 #notes .notes-container{
@@ -143,13 +150,188 @@
 .notes-container .notes-box{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     max-width: 1360px;
     gap: 24px;
 
 }
 
-.notes-box img{
-    background-color: #30B868;
+
+.notes-card .icons{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.notes-box .notes-card{
+    max-width: 322px;
+    padding: 69px 24px;
+    background-color: #ffffff;
+    gap: 16px;
+    border-radius: 8px;
+
+}
+
+.notes-card h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    
+}
+
+.notes-card p{
+    font-size: 16px;
+    
+}
+
+#second-brain{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+
+    
+}
+
+.second-brain-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.second-brain-container .second-brain-title{
+    width: 700px;
+}
+
+.second-brain-container .second-brain-title h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.second-brain-container .second-brain-title h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.second-brain-container .second-brain-title p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.second-brain-list{
+    margin-top: 40px;
+}
+
+.second-brain-list .icon-and-text{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.second-brain-container .left-image img{
+    width: 600px;
+    border-radius: 12px;
+}
+
+.second-brain-list .icon-and-text p{
+    font-size: 16px;
+    color: #000000;
+}
+
+#early-access{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1360px;
+    width: 85%;
+    border-radius: 12px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+
+#early-access .early-access-heading h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+#early-access .early-access-heading p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+
+#early-access .early-access-footer{
+    margin-top: 24px;
+}
+
+.early-access-footer p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+
+footer{
+    background-color: #001931;
+    width: 85%;
+    max-width: 1360px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 12px;
+}
+
+footer .footer-container .footer-logo-content{
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.footer-social p{
+    color: #ffffff;
+    margin-bottom: 16px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-social a{
+    color: #ffffff;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FAFAFA;
+    margin-bottom: 30px;
+
 }
