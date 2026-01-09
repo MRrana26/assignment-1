@@ -47,6 +47,10 @@
     gap: 6px;
 }
 
+.button:hover{
+    background-color: #5dec99;
+}
+
 #banner{
     background: url(../images/hero-bg.png), linear-gradient(#627382);
     height: 674px;
