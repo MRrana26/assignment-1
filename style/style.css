@@ -333,3 +333,10 @@ footer .footer-container .footer-logo-content{
     margin-top: 20px;
 
 }
+
+footer hr{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+
+}
